@@ -1,0 +1,29 @@
+=========== 2025-07-04 06:44:55,118 :: INFO :: Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+=========== 2025-07-04 06:46:29,485 :: INFO :: Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+=========== 2025-07-04 06:46:35,521 :: INFO :: HTTP Request: GET https://29658439-1be8-4812-9744-a0cbd024e7e5.us-west-1-0.aws.cloud.qdrant.io:6333 "HTTP/1.1 200 OK"
+=========== 2025-07-04 06:46:39,279 :: INFO :: HTTP Request: DELETE https://29658439-1be8-4812-9744-a0cbd024e7e5.us-west-1-0.aws.cloud.qdrant.io:6333/collections/PDF_Querier_Enhanced "HTTP/1.1 200 OK"
+=========== 2025-07-04 06:46:39,801 :: INFO :: HTTP Request: PUT https://29658439-1be8-4812-9744-a0cbd024e7e5.us-west-1-0.aws.cloud.qdrant.io:6333/collections/PDF_Querier_Enhanced "HTTP/1.1 200 OK"
+=========== 2025-07-04 06:46:39,804 :: INFO :: Enhanced collection PDF_Querier_Enhanced created successfully.
+=========== 2025-07-04 06:46:42,060 :: INFO :: HTTP Request: GET https://29658439-1be8-4812-9744-a0cbd024e7e5.us-west-1-0.aws.cloud.qdrant.io:6333 "HTTP/1.1 200 OK"
+=========== 2025-07-04 06:46:45,572 :: INFO :: HTTP Request: DELETE https://29658439-1be8-4812-9744-a0cbd024e7e5.us-west-1-0.aws.cloud.qdrant.io:6333/collections/PDF_Querier_Enhanced "HTTP/1.1 200 OK"
+=========== 2025-07-04 06:46:46,083 :: INFO :: HTTP Request: PUT https://29658439-1be8-4812-9744-a0cbd024e7e5.us-west-1-0.aws.cloud.qdrant.io:6333/collections/PDF_Querier_Enhanced "HTTP/1.1 200 OK"
+=========== 2025-07-04 06:46:46,084 :: INFO :: Enhanced collection PDF_Querier_Enhanced created successfully.
+=========== 2025-07-04 06:46:46,101 :: INFO :: Database initialized successfully
+=========== 2025-07-04 06:46:46,104 :: INFO :: Cleaned up 0 expired sessions
+=========== 2025-07-04 06:46:46,107 :: INFO :: Cleaned up 0 expired sessions
+=========== 2025-07-04 06:46:46,109 :: INFO :: Cleaned up 0 expired sessions
+=========== 2025-07-04 06:46:54,720 :: INFO :: Received file upload request
+=========== 2025-07-04 06:46:54,721 :: INFO :: File object: UploadFile(filename='research plan1.pdf', size=171630, headers=Headers({'content-disposition': 'form-data; name="file"; filename="research plan1.pdf"', 'content-type': 'application/pdf'}))
+=========== 2025-07-04 06:46:54,721 :: INFO :: File filename: research plan1.pdf
+=========== 2025-07-04 06:46:54,722 :: INFO :: File content_type: application/pdf
+=========== 2025-07-04 06:46:54,722 :: INFO :: File size: 171630
+=========== 2025-07-04 06:46:54,723 :: INFO :: Documents directory: app/documents
+=========== 2025-07-04 06:46:54,723 :: INFO :: Target file path: K:\Programming\ML_project\PDF_Questioning\drqa-main\drqa-main\backend\app\app\documents\research plan1.pdf
+=========== 2025-07-04 06:46:54,724 :: INFO :: Starting file save operation
+=========== 2025-07-04 06:46:54,724 :: INFO :: Read 171630 bytes from uploaded file
+=========== 2025-07-04 06:46:54,725 :: INFO :: File saved successfully: K:\Programming\ML_project\PDF_Questioning\drqa-main\drqa-main\backend\app\app\documents\research plan1.pdf
+=========== 2025-07-04 06:46:54,726 :: INFO :: Validating PDF metadata
+=========== 2025-07-04 06:46:54,828 :: INFO :: Verified PDF metadata: {'format': 'PDF 1.7', 'title': 'Default Title', 'author': '21-NTU-CS-1252', 'subject': 'Uploaded Document', 'keywords': 'document,upload', 'creator': 'Microsoft® Word for Microsoft 365', 'producer': 'Microsoft® Word for Microsoft 365', 'creationDate': "D:20250702002443+05'00'", 'modDate': "D:20250702002443+05'00'", 'trapped': '', 'encryption': None}
+=========== 2025-07-04 06:46:54,829 :: INFO :: Successfully processed PDF: K:\Programming\ML_project\PDF_Questioning\drqa-main\drqa-main\backend\app\app\documents\research plan1.pdf
+=========== 2025-07-04 06:46:54,829 :: INFO :: Adding file to qdrant index
+=========== 2025-07-04 06:46:54,830 :: ERROR :: Error adding to index: 'QdrantIndex' object has no attribute 'insert_into_index_async'
